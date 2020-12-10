@@ -1,0 +1,122 @@
+.home {
+	position: absolute;
+	top: 2%;
+	left: 2%;
+}
+
+.title {
+	position: absolute;
+	left: 24%;
+	top: 3%;
+	font-family: KC Uppercut;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 280%;
+	line-height: 84%;
+	text-align: center;
+	color: #F6CC46;
+	z-index: 1;
+}
+
+.info {
+	position: absolute;
+	left: 12%;
+	top: 30%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-size: 175%;
+	line-height: 70%;
+	color: #E6E9EA;
+	z-index: 1;
+}
+
+.img {
+	position: absolute;
+	left: 55%;
+	top: 0%;
+}
+
+.directions {
+	position: absolute;
+	left: 25%;
+	top: 66%;
+	font-family: Upgrade;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 175%;
+	line-height: 75%;
+	color: white;
+	z-index: 1;
+}
+
+.box {
+	position: absolute;
+	left: 19%;
+	top: 64%;
+	height: 8%;
+	width: 20%;
+	border: 2px solid; color: white;
+}
+
+/* change screen size*/
+
+@media (max-width: 500px) {
+	.home {
+		position: absolute;
+		top: 2%;
+		left: 2%;
+}
+
+	.title {
+		position: absolute;
+		left: 16%;
+		top: -3%;
+		font-family: KC Uppercut;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 230%;
+		line-height: 190%;
+		text-align: center;
+		color: #F6CC46;
+		z-index: 1;
+}
+
+	.info {
+		position: absolute;
+		left: 10%;
+		top: 24%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-size: 140%;
+		line-height: 70%;
+		color: #E6E9EA;
+		z-index: 1;
+}
+
+	.img {
+		position: absolute;
+		left: 50%;
+		top: 0%;
+}
+
+	.directions {
+		position: absolute;
+		left: 25%;
+		top: 56%;
+		font-family: Upgrade;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 130%;
+		line-height: 75%;
+		color: white;
+		z-index: 1;
+}
+
+	.box {
+		position: absolute;
+		left: 16%;
+		top: 53%;
+		height: 9%;
+		width: 34%;
+		border: 2px solid; color: white;
+}
